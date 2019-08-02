@@ -1,0 +1,335 @@
+<html>
+    <head>
+        <title>
+            Website template
+        </title>
+        <link rel="shortcut icon" type="image/x-icon" href="images/Cool-Logo.png">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        
+          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+        <script
+      src="http://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+      <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js" ></script>
+        <style>
+    /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+    .row.content {height: 1150px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+        padding: 25px;
+    }
+
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
+  </style>
+    </head>
+    <body>
+        <section id= "nav-bar">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <a class="navbar-brand" href="#"><img src="images/photo/HKC-logo.png"></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars" style="color: #707070"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#top">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">PORTFOLIO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#footer">CONTACT</a>
+                  </li>
+                  <li class="nav-item official">
+                    <a class="nav-link" href="https://heraldcollege.edu.np/">OFFICIAL PAGE</a>
+                  </li>                                                 
+                </ul>
+              </div>
+            </nav>
+        </section>
+        <!---------banner section--->
+        <section id="banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class='promo-title'>HERALD COLLEGE PRESENT
+                        </p>
+                        <p class='promo-title2'>STUDENT PORTFOLIO
+                        </p>
+                        <p>
+                            Herald College Kathmandu present all the graduated students portfolio on a webpage.
+                            Which contains their academic, experience and their skills as on single page.
+                        </p>
+                        <a class="port-box" href="#portfolio">PORTFOLIO</a>
+
+                        
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <img src="images/photo/books%20and%20students.png" class="image-fluid1">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+      
+        
+        <!--------Portfolio----->
+        <section id="portfolio" style="margin-top: 200px;">
+            <div class="container text-center">
+                <h1 class='title' style="color: #297C87;"><b>YOUR PORTFOLIO</b></h1>
+                
+                <div class="row">
+                     <section id= "dashboard" style="width: 100%;">
+                            <h3>STUDENT LIST</h3>
+  
+                    </section>
+                    <div class="container-fluid" style="border: solid 0px; box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19); ">
+                      <div class="row content">
+                        <div class="col-sm-4 sidenav">
+                            <form>
+                            <label for="Student-search">SEARCH BY STUDENT NAME</label>
+                            <div class="form-group has-search">
+                            <span class="fa fa-search form-control-feedback"></span>
+                            <input type="text" class="form-control" placeholder="Search">
+                          </div>
+                            </form>
+                          <h4>Filter</h4>
+                          <form>
+                              <div class="form-group">
+                                <label for="Intake">INTAKE</label>
+                                <select class="custom-select">
+                                  <option selected>Select Intake</option>
+                                  <option value="1">Autumn</option>
+                                  <option value="2">Spring</option>
+                                </select>
+                              </div>
+                                <div class="form-group">
+                                <label for="Year">Year</label>
+                                <select class="custom-select">
+                                  <option selected>Select Year</option>
+                                  <option value="1">2016</option>
+                                  <option value="2">2017</option>
+                                  <option value="3">2018</option>
+                                  <option value="3">2019</option>
+                                </select>
+                              </div>
+                              <div class="form-group">
+                                <label for="Course">Course</label>
+                                <select class="custom-select">
+                                  <option selected>Select Course</option>
+                                  <option value="1">BIT</option>
+                                  <option value="2">BBA</option>
+                                </select>
+                              </div>
+                              <button type="submit" class="btn" style="background-color: #96ED5D; color: white;">Search</button>
+                              </form>
+
+                              </div>
+                        
+                      <div class="col-sm-8" style="padding-left: 15px;">
+                        <h4><small></small></h4>
+                          <div class="form-group">
+                              <select name="state" id="maxRows" class="form-control" style="width: 150px;">
+                                  <option value="5000">Show All</option>
+                                  <option value="5">5</option>
+                                  <option value="10">10</option>
+                                  <option value="15">15</option>
+                                   <option value="20">20</option>
+                                   <option value="50">50</option>
+                                  <option value="75">75</option>
+                                  <option value="100">100</option>
+                                  </select>
+                              <nav aria-label="Page navigation example" style="padding: 10px; margin-bottom: -40px; text-decoration: none;" >
+                                  <ul class="pagination justify-content-center">
+                                    <li class="page-item disabled">
+                                      <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                                    </li>
+                                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item">
+                                      <a class="page-link" href="#">Next</a>
+                                    </li>
+                                  </ul>
+                                </nav>
+                              </div>
+                              <div class="pagination-container">
+                                  <nav>
+                                    <ul class="pagination"></ul>
+                                  </nav>
+                              </div>
+                        <hr>
+                          <div class="container-student" style="margin-top: 20px">
+                              
+                              <div class="overflow-auto">
+                              <table id="mytable" class="table table-bordered table-striped">
+                              
+                            
+                                      
+                                          <div class="media border p-2" style="margin-bottom: 15px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                                            <a href="portfolio.html"> <img src="images/me.jpg" alt="John Doe" class="mr-mt-3 rounded-circle" style="width:60px; "> </a>
+                                            <div class="media-body">
+                                                <a herf="portfolio.html"><h5>Pawan Panta <small><i>1828001</i></small></h5></a>
+                                              <p>Bsc.Hons Computer Science and Software Engineering</p>
+                                                <hr>
+                                                <p><b>Works In :</b> Intern, Herald College Kathmandu </p>
+                                                
+                                                
+                                            </div>
+                                          </div>
+                                         
+                                     
+                                      
+                                
+                                          <div class="media border p-3" style="margin-bottom: 15px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                                            <img src="images/res.jpg" alt="John Doe" class="mr-mt-3 rounded-circle" style="width:60px;">
+                                            <div class="media-body">
+                                              <h5>Reshmi KC <small><i>1828001</i></small></h5>
+                                              <p>Bsc.Hons Computer Science and Software Engineering</p>
+                                                <hr>
+                                                <p><b>Works In :</b> Intern, Herald College Kathmandu</p>
+                                            </div>
+                                          </div>
+                                  
+                                          <div class="media border p-3" style="margin-bottom: 15px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                                            <img src="images/sus.jpg" alt="John Doe" class="mr-mt-3 rounded-circle" style="width:60px;">
+                                            <div class="media-body">
+                                              <h5>Sushil ShresthaC <small><i>1828001</i></small></h5>
+                                              <p>Bsc.Hons Computer Science and Software Engineering</p>
+                                                <hr>
+                                                <p><b>Works In :</b> Intern, Herald College Kathmandu</p>
+                                            </div>
+                                          </div>
+                                        <div class="media border p-3" style="margin-bottom: 15px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                                            <img src="images/suj.jpg" alt="John Doe" class="mr-mt-3 rounded-circle" style="width:60px;">
+                                            <div class="media-body">
+                                              <h5>Sujan Bal <small><i>1828001</i></small></h5>
+                                              <p>Bsc.Hons Computer Science and Software Engineering</p>
+                                                <hr>
+                                                <p><b>Works In :</b> Intern, Herald College Kathmandu</p>
+                                            </div>
+                                          </div>
+                                        <div class="media border p-3" style="margin-bottom: 15px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                                            <img src="images/anj.jpg" alt="John Doe" class="mr-mt-3 rounded-circle" style="width:60px;">
+                                            <div class="media-body">
+                                              <h5>Anjaan Ghising Tamang <small><i>1828001</i></small></h5>
+                                              <p>Bsc.Hons Computer Science and Software Engineering</p>
+                                                <hr>
+                                                <p><b>Works In :</b> Intern, Herald College Kathmandu</p>
+                                            </div>
+                                          </div>
+                                        
+                                       
+                                 
+                              </table>
+                                  <nav aria-label="Page navigation example">
+                                  <ul class="pagination justify-content-center">
+                                    <li class="page-item disabled">
+                                      <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                                    </li>
+                                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item">
+                                      <a class="page-link" href="#">Next</a>
+                                    </li>
+                                  </ul>
+                                </nav>
+                              </div>
+                          </div>
+                        </div>
+                          
+                        </div>
+                    </div>
+                    </div>
+                </div>
+        </section>
+    </body>
+    <footer>
+         <!--------footer----->
+        <section id="footer">
+         
+         <div class="container">
+                <div class="col-md-12 footer-box" style="padding: 40px 40px 40px 40px;">
+                    <p><b>CONTACT US</b></p>
+                    <P><i class="fa fa-map-marker"></i>  Bishalnagar, Handigaon, Kathmandu</P>
+                    <p><i class="fa fa-phone"></i>  9801022637, 01-4010120, 01-4010121</p>
+                    <p><i class="fa fa-envelope-o"></i> info@heraldcollege.edu.np</p>
+                    <hr>
+                    <div class="container" style="float: right;">
+                <p style="text-align: center;">Powered by :</p>
+                <div class="row justify-content-md-center" style="margin-right: -50px;">
+                     
+
+                        <div class="row-6">
+                          <img  src="images/photo/HKC-logo.png" style="width: 150px;">
+                        </div>
+                        <div class="row-6">
+                          <img src="images/photo/wolverhampton-1024x213.png" style="width: 150px;">
+                        </div>
+                          <div class="row-6">
+                          <img src="images/photo/iacademy-logo.png" style="width: 150px;">
+                        </div>
+                        
+                    </div>
+
+            </div>
+                    <hr>
+                   
+                   
+                </div>
+
+                      
+             </div>
+<!--
+            <div class="container">
+                <p style="text-align: center; margin-top: -10px;">Powered by :</p>
+                <div class="row justify-content-md-center" style="margin-right: -50px;">
+                     
+
+                        <div class="row-6">
+                          <img  src="images/photo/HKC-logo.png" style="width: 150px;">
+                        </div>
+                        <div class="row-6">
+                          <img src="images/photo/wolverhampton-1024x213.png" style="width: 145px;">
+                        </div>
+                          <div class="row-6">
+                          <img src="images/photo/iacademy-logo.png" style="width: 130px;">
+                        </div>
+                        
+                    </div>
+
+            </div>
+-->
+        </section>
+         <!--------smooth scroll----->
+        <script src="smooth-scroll.js"></script>
+        <script>
+            var scroll = new SmoothScroll('a[href*="#"]');
+        </script>
+
+
+    </footer>
+</html>
